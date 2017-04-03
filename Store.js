@@ -14,7 +14,7 @@ class Store extends EventEmitter
         this.state = {}
         this.readOnlyKeys = [];
     }
-
+    
     /**
      * Event name emitted in Set operation
      */
